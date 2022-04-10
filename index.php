@@ -26,7 +26,7 @@ $k=0;
 foreach ($sheetData as  $value) {
     $data[$i++][]=new trendyolexcelmodel($value) ; 
 }
-
+//$data[0]->boy //örnek autocomplete
  
 print_r($data);
 
